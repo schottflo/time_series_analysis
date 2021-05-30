@@ -29,7 +29,7 @@ CHUNKS = list(range(10, 60, 10))  # 5 values
 OVERLAPS = list(range(0, 100, 10)) # in % # 10 values
 
 # Machine-specific parameter
-DIR = 'C:/Users/Flori/Documents/Jobs/ETH Neurobehavioral Dynamics Lab/future_data' # directory where the files are saved
+DIR = '/data/' # directory where the files are saved
 
 # Just a helper function that prints all columns of a dataframe
 def print_all_cols(x):
@@ -182,10 +182,10 @@ def hyperparameter_search():
         print(important_features)
 
         results[combination] = {"avg_acc": avg_acc, "acc_vals": acc_vals, "imp_feat": important_features, "all_feat": features}
-        np.save('C:/Users/Flori/Documents/Jobs/ETH Neurobehavioral Dynamics Lab/testrun/result_backup_{0}.npy'.format(combination), results)
+        np.save('result_backup_{0}.npy'.format(combination), results)
 
     print(results)
-    np.save('C:/Users/Flori/Documents/Jobs/ETH Neurobehavioral Dynamics Lab/testrun/result.npy', results)
+    np.save('result.npy', results)
 
 if __name__=="__main__":
     hyperparameter_search()
