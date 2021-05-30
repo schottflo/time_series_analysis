@@ -19,7 +19,7 @@ CHUNK_LEN = 20
 OVERLAP = 0.4
 
 # Machine-specific parameter
-DIR = 'C:/Users/Flori/Documents/Jobs/ETH Neurobehavioral Dynamics Lab/future_data' # directory where the files are saved
+DIR = '/data/' # directory where the files are saved
 
 def feature_extraction():
 
