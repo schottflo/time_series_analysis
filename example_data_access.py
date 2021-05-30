@@ -12,7 +12,7 @@ def print_all_cols(x):
 if __name__ == "__main__":
 
     # Access to data
-    mice_data_dir = 'C:/Users/Flori/Documents/Jobs/ETH Neurobehavioral Dynamics Lab/future_data' # Insert directory here
+    mice_data_dir = '/data/' # Insert directory here
     md = data_loader.DataMerger(mice_data_dir)
 
     # Name Requirements
