@@ -7,8 +7,6 @@ The present code was developed together with Dr. Paulius Viskaitis from the Neur
 
 ## How it works
 
-![](flowchart/flowchart.PNG)
-
 1.) First, the raw data is loaded into the framework. The data loader extracts the classes and signal types based on file names and brings the data into an appropriate format. The different time series can be chunked into smaller time series to increase the sample size in case this is an issue. 
 
 2.) As a next step, a number of features can be extracted for each time series chunk. The framework automatically extracts only the features that are significantly different between the different classes (in the above example: awake and sleeping animals) unless the user specifies a particular set of features that she is interested in. 
