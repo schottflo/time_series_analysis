@@ -1,7 +1,7 @@
 # Time Series Classification
 
 ## Purpose and authors
-The presented framework facilitates the analysis of neural time series. It provides an end-to-end tool to classify a given time series (e.g. a brain signal) according to different characteristics. A possible use case could be to differentiate the behavior of a given animal based on its brain signals (e.g. awake vs. sleeping). If one had a sufficiently large number of measurements of the brain signals of both behaviors, the framework is able to estimate the probability that a given time series belongs to an animal in any of the given the states.
+The presented framework facilitates the analysis of time series. It provides an end-to-end tool to classify a given time series (e.g. a brain signal) according to different characteristics. A possible use case could be to differentiate the behavior of a given animal based on its brain signals (e.g. awake vs. sleeping). If one had a sufficiently large number of measurements of the brain signals of both behaviors, the framework is able to estimate the probability that a given time series belongs to an animal in any of the given the states.
 
 The present code was developed together with Dr. Paulius Viskaitis from the Neurobehavioral Dynamics Lab at ETH Zurich. 
 
